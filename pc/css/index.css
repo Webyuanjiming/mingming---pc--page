@@ -1,0 +1,265 @@
+/*-------苑计明---
+-----2015-4-21----*/
+*{border:0; margin: 0; padding: 0;}
+html {
+    height: 100%;
+}
+
+body {
+    background: #E2E4E7;
+    padding: 0;
+    text-align: center;
+    font-family: 'open sans';
+    position: relative;
+    margin: 0;
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+.wrapper {
+    height: 100% !important;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.main {
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main section .page_container {
+    position: relative;
+    top: 2%;
+    margin: 0 auto 0;
+    max-width: 950px;
+    z-index: 3;
+}
+.main section .page_container .page{
+    width:100%;
+    height:100%;
+    position:absolute;
+    font-size:100px;
+    text-align:center;
+}
+.main section .page_container .page .wrap{
+    height:100%;
+}
+.page-current{
+    z-index:1;
+}
+
+/*----page1----*/
+.page-1-1 .img_1
+{
+    height:auto;
+    width:auto;
+    position:absolute;
+    left:0;
+    top:2%;
+}
+.page-1-1 .img_o1 {
+    height:auto;
+    width:auto;
+    position:absolute;
+    left:35%;
+    top:350px;
+}
+.page-1-1 .img_2 {
+    height:auto;
+    width:auto;
+    position:absolute;
+    left:0;
+    top:600px;
+}
+.main section {
+    overflow: hidden;
+}
+
+/*----page1----*/
+
+/*----page2----*/
+
+.page-2-1 .img_1 {
+    height: auto;
+    width: auto;
+    position: absolute;
+    left: 15%;
+    top: 100px;
+    z-index: 2;
+}
+.page-2-1 .img_2 {
+    height: auto;
+    width: auto;
+    position: absolute;
+    left: 25%;
+    top: 300px;
+}
+.page-2-1 .img_3 {
+    height: auto;
+    width: auto;
+    position: absolute;
+    left: 20%;
+    top: 500px;
+}
+/*----page2----*/
+
+/*-------page3---------*/
+
+.page-3-1 .img_1 {
+    height: auto;
+    width: auto;
+    position: absolute;
+    left: 0;
+    top: 130px;
+    z-index: 2;
+}
+.page-3-1 .img_o1 {
+    height: auto;
+    width: auto;
+    position: absolute;
+    left: 45%;
+    top: 50px;
+    z-index: 2;
+}
+.page-3-1 .img_o2 {
+    height: auto;
+    width: auto;
+    position: absolute;
+    left: 62%;
+    top: 55px;
+    z-index: 2;
+}
+.page-3-1 .img_2 {
+    height: auto;
+    width: auto;
+    position: absolute;
+    left: 5%;
+    top: 350px;
+}
+.page-3-1 .img_i2{
+    height: auto;
+    width: auto;
+    position: absolute;
+    left: 25%;
+    top: 400px;
+}
+.page-3-1 .img_3 {
+    height: auto;
+    width: auto;
+    position: absolute;
+    left: 8%;
+    top: 500px;
+}
+
+.page-3-1 .img_7 {
+    height: auto;
+    width: auto;
+    position: absolute;
+    left: 8%;
+    top: 620px;
+}
+.page-3-1 .img_o7 {
+    height: auto;
+    width: auto;
+    position: absolute;
+    left: 85%;
+    top: 550px;
+}
+
+/*-----page3----------*/
+
+/*-----page4----------*/
+
+.page-3-2 .img_1 {
+    height: auto;
+    width: 50%;
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
+.page-3-2 .img_o1 {
+    height: auto;
+    width: 50%;
+    position: absolute;
+    left: 52%;
+    top: 40px;
+}
+.page-3-2 .img_o2 {
+    height: auto;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 400px;
+}
+
+/*-----page4----------*/
+
+
+/*-----page5----------*/
+
+.page-4-1 .img_1 {
+    height: auto;
+    width: auto;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    z-index: 2;
+}
+.page-4-1 .img_2 {
+    height: auto;
+    width: auto;
+    position: absolute;
+    left: 20%;
+    top: 35%;
+}
+.page-4-1 .img_3 {
+    height: auto;
+    width: auto;
+    position: absolute;
+    left: 20%;
+    top: 60%;
+}
+
+.page-4-1 .img_8 {
+    height: auto;
+    width: auto;
+    position: absolute;
+    left: 70%;
+    top: 65%;
+}
+
+
+/*-----page5----------*/
+
+
+/*----page-color----*/
+.main section.page1 {
+    background-color: #C1CFEA;
+}
+
+.main section.page2 {
+    background-color:#E5E2D1;
+}
+
+.main section.page3 {
+    background-color:#ED796A;
+}
+
+
+.main section.page4 {
+    background-color:#ED796A;
+}
+
+
+.main section.page5 {
+    background-color:#C9E7EF;
+}
+
+/*----page-color----*/
+
+body.disabled-onepage-scroll .onepage-wrapper section {
+    min-height: 100%;
+    height: auto;
+}
